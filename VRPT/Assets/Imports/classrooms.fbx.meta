@@ -1,0 +1,247 @@
+fileFormatVersion: 2
+guid: 25ecbe7558afbc441849a2e22f2d2ba0
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Board
+    100002: Board.001
+    100004: Chair.001
+    100006: Chair_1
+    100008: Chair_1.001
+    100010: //RootNode
+    100012: Cube
+    100014: Cube.001
+    100016: Cube.002
+    100018: Light
+    100020: Light.001
+    100022: Room Big
+    100024: Room Small
+    100026: Table
+    100028: Closet
+    100030: Desk
+    100032: Table.001
+    100034: Table.002
+    400000: Board
+    400002: Board.001
+    400004: Chair.001
+    400006: Chair_1
+    400008: Chair_1.001
+    400010: //RootNode
+    400012: Cube
+    400014: Cube.001
+    400016: Cube.002
+    400018: Light
+    400020: Light.001
+    400022: Room Big
+    400024: Room Small
+    400026: Table
+    400028: Closet
+    400030: Desk
+    400032: Table.001
+    400034: Table.002
+    2100000: Wall
+    2100002: Floor
+    2100004: Window
+    2100006: Light
+    2100008: Blackboard
+    2100010: Plastic
+    2100012: Wood
+    2100014: No Name
+    2100016: Wall.002
+    2100018: Floor.001
+    2100020: Window.001
+    2100022: Light.001
+    2100024: Blackboard.001
+    2100026: Metall
+    2100028: M_Black
+    2100030: M_Blue_00
+    2300000: Board
+    2300002: Board.001
+    2300004: Chair.001
+    2300006: Chair_1
+    2300008: Chair_1.001
+    2300010: Cube
+    2300012: Cube.001
+    2300014: Cube.002
+    2300016: Light
+    2300018: Light.001
+    2300020: Room Big
+    2300022: Room Small
+    2300024: Table
+    2300026: //RootNode
+    2300028: Closet
+    2300030: Desk
+    2300032: Table.001
+    2300034: Table.002
+    3300000: Board
+    3300002: Board.001
+    3300004: Chair.001
+    3300006: Chair_1
+    3300008: Chair_1.001
+    3300010: Cube
+    3300012: Cube.001
+    3300014: Cube.002
+    3300016: Light
+    3300018: Light.001
+    3300020: Room Big
+    3300022: Room Small
+    3300024: Table
+    3300026: //RootNode
+    3300028: Closet
+    3300030: Desk
+    3300032: Table.001
+    3300034: Table.002
+    4300000: Room Big
+    4300002: Light
+    4300004: Board
+    4300006: Table
+    4300008: Chair.001
+    4300010: Cube.002
+    4300012: Room Small
+    4300014: Light.001
+    4300016: Board.001
+    4300018: Cube.001
+    4300020: Cube
+    4300022: Chair_1.001
+    4300024: Chair_1
+    4300026: Closet
+    4300028: Desk
+    4300030: Table.002
+    4300032: Table.001
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blackboard
+    second: {fileID: 2100000, guid: c3fe70c571b216244af489b8abd95e0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor
+    second: {fileID: 2100000, guid: 9e3216af24373e7429edb68d8ceadf27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light
+    second: {fileID: 2100000, guid: f9298496f2a99944586098311ea7861d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Black
+    second: {fileID: 2100000, guid: adbf8ccbf86e5d5419bb3d93d4855ff9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Blue_00
+    second: {fileID: 2100000, guid: 130d8b9f08088514885dea452c1e2287, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metall
+    second: {fileID: 2100000, guid: 7420c5819dac2fc4cae4213fb9379e34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic
+    second: {fileID: 2100000, guid: 5865575e7be5c304ba0dc642da911dc4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall
+    second: {fileID: 2100000, guid: 97f7b23e795b3d14bb48659ea2052c5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window
+    second: {fileID: 2100000, guid: 89c9207e7a0b65a43b11795e42a9f8d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: 68f94d1df5b48bf4d8100b902f5e02bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_bright
+    second: {fileID: 2100000, guid: 9bb4d9c8fc6afaf4f9c3e8ec73dbf2d1, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
