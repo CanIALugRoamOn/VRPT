@@ -1,0 +1,9 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <UnityWSASolutionName>VRPT</UnityWSASolutionName>
+        <UnityWSASolutionDir>C:\Users\roman\Unity Projects\Virtual Presentation Trainer\VRPT\App\</UnityWSASolutionDir>
+        <UnityProjectDir>C:\Users\roman\Unity Projects\Virtual Presentation Trainer\VRPT\</UnityProjectDir>
+        <UnityWSAPlayerDir>C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport\</UnityWSAPlayerDir>
+        <UnityWSAToolsDir>$(UnityWSASolutionDir)Unity\Tools\</UnityWSAToolsDir>
+    </PropertyGroup>
+</Project>

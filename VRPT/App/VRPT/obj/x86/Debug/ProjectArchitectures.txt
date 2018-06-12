@@ -1,0 +1,2 @@
+C:\Users\roman\Unity Projects\Virtual Presentation Trainer\VRPT\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
+C:\Users\roman\Unity Projects\Virtual Presentation Trainer\VRPT\App\VRPT\VRPT.csproj;x86
