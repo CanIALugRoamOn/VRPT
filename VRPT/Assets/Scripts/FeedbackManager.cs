@@ -1,18 +1,21 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using ConnectorHubUW;
+
+
 
 public class FeedbackManager : MonoBehaviour {
 
 
 
 #if NETFX_CORE
-    public FeedbackHub myFeedbackHub;
+    public ConnectorHubUW.FeedbackHub myFeedbackHub;
 #endif
     public Sprite[] IconCollection;
     public GameObject PTIconHolder;
-    //public int listeningTCPPort;
+    public int listeningTCPPort= 15002;
+    public int listeningUDPPort=16002;
     private UnityEngine.UI.Image IconImage;
     private UnityEngine.UI.Text IconText;
     // Only for testing
@@ -26,9 +29,9 @@ public class FeedbackManager : MonoBehaviour {
 
 #if NETFX_CORE
 
-        myFeedbackHub = new FeedbackHub();
+        myFeedbackHub = new ConnectorHubUW.FeedbackHub();
         myFeedbackHub.init(listeningTCPPort, listeningUDPPort);
-        myFeedbackHub.feedbackReceivedEvent += MyFeedbackHub_feedbackReceivedEvent();
+        myFeedbackHub.feedbackReceivedEvent += MyFeedbackHub_feedbackReceivedEvent;
 #endif
         // Get Image component of the Icon
         IconImage = PTIconHolder.GetComponent<UnityEngine.UI.Image>();
@@ -42,6 +45,8 @@ public class FeedbackManager : MonoBehaviour {
         feedback = FeedbackSequence[0].ToString();
 
     }
+
+    
 
     // Update is called once per frame
     void Update() {
@@ -133,10 +138,10 @@ public class FeedbackManager : MonoBehaviour {
         
     }
 
-#if NETFX_CORE
-    public myFeedbackHub myFeedbackHub_feedbackReceivedEvent(object sender,string feedback)
+    //#if NETFX_CORE
+    private void MyFeedbackHub_feedbackReceivedEvent(object sender, string feedback)
     {
         this.feedback = feedback;
     }
-#endif
+//#endif
 }

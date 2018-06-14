@@ -397,9 +397,6 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="ConnectorHub">
-      <HintPath>C:/Users/roman/Unity Projects/Virtual Presentation Trainer/VRPT/Assets/ConnectorHub.dll</HintPath>
-    </Reference>
     <Reference Include="GLTFSerialization">
       <HintPath>C:/Users/roman/Unity Projects/Virtual Presentation Trainer/VRPT/Assets/HoloToolkit/Utilities/Scripts/GLTF/Plugins/GLTFSerialization/GLTFSerialization.dll</HintPath>
     </Reference>
@@ -426,6 +423,9 @@
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="ConnectorHubUW">
+      <HintPath>C:/Users/roman/Unity Projects/Virtual Presentation Trainer/VRPT/Assets/ConnectorHubUW.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

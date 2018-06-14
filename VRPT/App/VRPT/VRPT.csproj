@@ -12,7 +12,7 @@
     <AssemblyName>VRPT</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion>10.0.16299.0</TargetPlatformVersion>
+    <TargetPlatformVersion>10.0.17134.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.10240.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
@@ -147,7 +147,7 @@
     <SDKReference Include="Microsoft.VCLibs, Version=14.0">
       <Name>Visual C++ 2015 Runtime for Universal Windows Platform Apps</Name>
     </SDKReference>
-    <SDKReference Include="WindowsMobile, Version=10.0.16299.0">
+    <SDKReference Include="WindowsMobile, Version=10.0.17134.0">
       <Name>Windows Mobile Extensions for the UWP</Name>
     </SDKReference>
   </ItemGroup>
@@ -174,149 +174,152 @@
     </Content>
     <Compile Include="UnityGenerated.cs">
     </Compile>
-    <Reference Include="UnityEngine.TilemapModule">
-      <HintPath>.\Unprocessed\UnityEngine.TilemapModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TextRenderingModule">
-      <HintPath>.\Unprocessed\UnityEngine.TextRenderingModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UNETModule">
-      <HintPath>.\Unprocessed\UnityEngine.UNETModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UIModule">
-      <HintPath>.\Unprocessed\UnityEngine.UIModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UIElementsModule">
-      <HintPath>.\Unprocessed\UnityEngine.UIElementsModule.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.SpriteMaskModule">
       <HintPath>.\Unprocessed\UnityEngine.SpriteMaskModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.SharedInternalsModule">
-      <HintPath>.\Unprocessed\UnityEngine.SharedInternalsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpriteShapeModule">
       <HintPath>.\Unprocessed\UnityEngine.SpriteShapeModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.TerrainPhysicsModule">
-      <HintPath>.\Unprocessed\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    <Reference Include="UnityEngine.StyleSheetsModule">
+      <HintPath>.\Unprocessed\UnityEngine.StyleSheetsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TerrainModule">
       <HintPath>.\Unprocessed\UnityEngine.TerrainModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.StyleSheetsModule">
-      <HintPath>.\Unprocessed\UnityEngine.StyleSheetsModule.dll</HintPath>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>.\Unprocessed\UnityEngine.TerrainPhysicsModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.VRModule">
-      <HintPath>.\Unprocessed\UnityEngine.VRModule.dll</HintPath>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>.\Unprocessed\UnityEngine.TextRenderingModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.VideoModule">
-      <HintPath>.\Unprocessed\UnityEngine.VideoModule.dll</HintPath>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>.\Unprocessed\UnityEngine.TilemapModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.VehiclesModule">
-      <HintPath>.\Unprocessed\UnityEngine.VehiclesModule.dll</HintPath>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>.\Unprocessed\UnityEngine.UIElementsModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.WebModule">
-      <HintPath>.\Unprocessed\UnityEngine.WebModule.dll</HintPath>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>.\Unprocessed\UnityEngine.UIModule.dll</HintPath>
     </Reference>
-    <Reference Include="WinRTLegacy">
-      <HintPath>.\Unprocessed\WinRTLegacy.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.XRModule">
-      <HintPath>.\Unprocessed\UnityEngine.XRModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.WindModule">
-      <HintPath>.\Unprocessed\UnityEngine.WindModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
-      <HintPath>.\Unprocessed\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UnityConnectModule">
-      <HintPath>.\Unprocessed\UnityEngine.UnityConnectModule.dll</HintPath>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>.\Unprocessed\UnityEngine.UNETModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityAnalyticsModule">
       <HintPath>.\Unprocessed\UnityEngine.UnityAnalyticsModule.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>.\Unprocessed\UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>.\Unprocessed\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UnityWebRequestAudioModule">
       <HintPath>.\Unprocessed\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
-      <HintPath>.\Unprocessed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
-      <HintPath>.\Unprocessed\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestModule">
       <HintPath>.\Unprocessed\UnityEngine.UnityWebRequestModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.ClothModule">
-      <HintPath>.\Unprocessed\UnityEngine.ClothModule.dll</HintPath>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>.\Unprocessed\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.AudioModule">
-      <HintPath>.\Unprocessed\UnityEngine.AudioModule.dll</HintPath>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>.\Unprocessed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.AssetBundleModule">
-      <HintPath>.\Unprocessed\UnityEngine.AssetBundleModule.dll</HintPath>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>.\Unprocessed\UnityEngine.VehiclesModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.CoreModule">
-      <HintPath>.\Unprocessed\UnityEngine.CoreModule.dll</HintPath>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>.\Unprocessed\UnityEngine.VideoModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>.\Unprocessed\UnityEngine.dll</HintPath>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>.\Unprocessed\UnityEngine.VRModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.DirectorModule">
-      <HintPath>.\Unprocessed\UnityEngine.DirectorModule.dll</HintPath>
+    <Reference Include="UnityEngine.WebModule">
+      <HintPath>.\Unprocessed\UnityEngine.WebModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.CrashReportingModule">
-      <HintPath>.\Unprocessed\UnityEngine.CrashReportingModule.dll</HintPath>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>.\Unprocessed\UnityEngine.WindModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.AccessibilityModule">
-      <HintPath>.\Unprocessed\UnityEngine.AccessibilityModule.dll</HintPath>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>.\Unprocessed\UnityEngine.SharedInternalsModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.ARModule">
-      <HintPath>.\Unprocessed\UnityEngine.ARModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.AnimationModule">
-      <HintPath>.\Unprocessed\UnityEngine.AnimationModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.AIModule">
-      <HintPath>.\Unprocessed\UnityEngine.AIModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ParticleSystemModule">
-      <HintPath>.\Unprocessed\UnityEngine.ParticleSystemModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ParticlesLegacyModule">
-      <HintPath>.\Unprocessed\UnityEngine.ParticlesLegacyModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.PerformanceReportingModule">
-      <HintPath>.\Unprocessed\UnityEngine.PerformanceReportingModule.dll</HintPath>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>.\Unprocessed\UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ScreenCaptureModule">
       <HintPath>.\Unprocessed\UnityEngine.ScreenCaptureModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.PhysicsModule">
-      <HintPath>.\Unprocessed\UnityEngine.PhysicsModule.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.Physics2DModule">
       <HintPath>.\Unprocessed\UnityEngine.Physics2DModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.GridModule">
-      <HintPath>.\Unprocessed\UnityEngine.GridModule.dll</HintPath>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>.\Unprocessed\UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>.\Unprocessed\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>.\Unprocessed\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>.\Unprocessed\UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>.\Unprocessed\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>.\Unprocessed\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>.\Unprocessed\UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>.\Unprocessed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>.\Unprocessed\UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>.\Unprocessed\UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>.\Unprocessed\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.GameCenterModule">
       <HintPath>.\Unprocessed\UnityEngine.GameCenterModule.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>.\Unprocessed\UnityEngine.GridModule.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.ImageConversionModule">
       <HintPath>.\Unprocessed\UnityEngine.ImageConversionModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.JSONSerializeModule">
-      <HintPath>.\Unprocessed\UnityEngine.JSONSerializeModule.dll</HintPath>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>.\Unprocessed\UnityEngine.IMGUIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.InputModule">
       <HintPath>.\Unprocessed\UnityEngine.InputModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.IMGUIModule">
-      <HintPath>.\Unprocessed\UnityEngine.IMGUIModule.dll</HintPath>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>.\Unprocessed\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticlesLegacyModule">
+      <HintPath>.\Unprocessed\UnityEngine.ParticlesLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>.\Unprocessed\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>.\Unprocessed\UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>.\Unprocessed\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="WinRTLegacy">
+      <HintPath>.\Unprocessed\WinRTLegacy.dll</HintPath>
+    </Reference>
+    <Reference Include="ConnectorHubUW">
+      <HintPath>.\Unprocessed\ConnectorHubUW.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>.\Unprocessed\Newtonsoft.Json.dll</HintPath>
@@ -362,7 +365,7 @@
 
   <ItemGroup>
     <ProjectReference Include="C:\Users\roman\Unity Projects\Virtual Presentation Trainer\VRPT\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj">
-      <Project>{295f78aa-4938-4ed5-8305-a45e20946a3c}</Project>
+      <Project>{0f2e9718-25ff-43e5-9829-1ff6efa41d30}</Project>
       <Name>Assembly-CSharp</Name>
       <Private>False</Private>
     </ProjectReference>
@@ -455,46 +458,6 @@
         <Message Importance="high" Text="AssemblyConverter done." />
         <Message Importance="high" Text="Modifying AppxPackagePayload" />
         <ItemGroup>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.TilemapModule.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.TilemapModule.dll">
-                <TargetPath>UnityEngine.TilemapModule.dll</TargetPath>
-            </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.TilemapModule.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.TilemapModule.pdb">
-                <TargetPath>UnityEngine.TilemapModule.pdb</TargetPath>
-            </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.TextRenderingModule.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.TextRenderingModule.dll">
-                <TargetPath>UnityEngine.TextRenderingModule.dll</TargetPath>
-            </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.TextRenderingModule.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.TextRenderingModule.pdb">
-                <TargetPath>UnityEngine.TextRenderingModule.pdb</TargetPath>
-            </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.UNETModule.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.UNETModule.dll">
-                <TargetPath>UnityEngine.UNETModule.dll</TargetPath>
-            </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.UNETModule.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.UNETModule.pdb">
-                <TargetPath>UnityEngine.UNETModule.pdb</TargetPath>
-            </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.UIModule.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.UIModule.dll">
-                <TargetPath>UnityEngine.UIModule.dll</TargetPath>
-            </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.UIModule.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.UIModule.pdb">
-                <TargetPath>UnityEngine.UIModule.pdb</TargetPath>
-            </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.UIElementsModule.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.UIElementsModule.dll">
-                <TargetPath>UnityEngine.UIElementsModule.dll</TargetPath>
-            </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.UIElementsModule.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.UIElementsModule.pdb">
-                <TargetPath>UnityEngine.UIElementsModule.pdb</TargetPath>
-            </AppxPackagePayload>
             <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.SpriteMaskModule.dll'" />
             <AppxPackagePayload Include="$(ProjectDir)UnityEngine.SpriteMaskModule.dll">
                 <TargetPath>UnityEngine.SpriteMaskModule.dll</TargetPath>
@@ -502,14 +465,6 @@
             <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.SpriteMaskModule.pdb'" />
             <AppxPackagePayload Include="$(ProjectDir)UnityEngine.SpriteMaskModule.pdb">
                 <TargetPath>UnityEngine.SpriteMaskModule.pdb</TargetPath>
-            </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.SharedInternalsModule.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.SharedInternalsModule.dll">
-                <TargetPath>UnityEngine.SharedInternalsModule.dll</TargetPath>
-            </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.SharedInternalsModule.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.SharedInternalsModule.pdb">
-                <TargetPath>UnityEngine.SharedInternalsModule.pdb</TargetPath>
             </AppxPackagePayload>
             <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.SpriteShapeModule.dll'" />
             <AppxPackagePayload Include="$(ProjectDir)UnityEngine.SpriteShapeModule.dll">
@@ -519,13 +474,13 @@
             <AppxPackagePayload Include="$(ProjectDir)UnityEngine.SpriteShapeModule.pdb">
                 <TargetPath>UnityEngine.SpriteShapeModule.pdb</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.TerrainPhysicsModule.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.TerrainPhysicsModule.dll">
-                <TargetPath>UnityEngine.TerrainPhysicsModule.dll</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.StyleSheetsModule.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.StyleSheetsModule.dll">
+                <TargetPath>UnityEngine.StyleSheetsModule.dll</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.TerrainPhysicsModule.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.TerrainPhysicsModule.pdb">
-                <TargetPath>UnityEngine.TerrainPhysicsModule.pdb</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.StyleSheetsModule.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.StyleSheetsModule.pdb">
+                <TargetPath>UnityEngine.StyleSheetsModule.pdb</TargetPath>
             </AppxPackagePayload>
             <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.TerrainModule.dll'" />
             <AppxPackagePayload Include="$(ProjectDir)UnityEngine.TerrainModule.dll">
@@ -535,77 +490,53 @@
             <AppxPackagePayload Include="$(ProjectDir)UnityEngine.TerrainModule.pdb">
                 <TargetPath>UnityEngine.TerrainModule.pdb</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.StyleSheetsModule.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.StyleSheetsModule.dll">
-                <TargetPath>UnityEngine.StyleSheetsModule.dll</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.TerrainPhysicsModule.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.TerrainPhysicsModule.dll">
+                <TargetPath>UnityEngine.TerrainPhysicsModule.dll</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.StyleSheetsModule.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.StyleSheetsModule.pdb">
-                <TargetPath>UnityEngine.StyleSheetsModule.pdb</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.TerrainPhysicsModule.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.TerrainPhysicsModule.pdb">
+                <TargetPath>UnityEngine.TerrainPhysicsModule.pdb</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.VRModule.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.VRModule.dll">
-                <TargetPath>UnityEngine.VRModule.dll</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.TextRenderingModule.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.TextRenderingModule.dll">
+                <TargetPath>UnityEngine.TextRenderingModule.dll</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.VRModule.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.VRModule.pdb">
-                <TargetPath>UnityEngine.VRModule.pdb</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.TextRenderingModule.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.TextRenderingModule.pdb">
+                <TargetPath>UnityEngine.TextRenderingModule.pdb</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.VideoModule.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.VideoModule.dll">
-                <TargetPath>UnityEngine.VideoModule.dll</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.TilemapModule.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.TilemapModule.dll">
+                <TargetPath>UnityEngine.TilemapModule.dll</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.VideoModule.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.VideoModule.pdb">
-                <TargetPath>UnityEngine.VideoModule.pdb</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.TilemapModule.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.TilemapModule.pdb">
+                <TargetPath>UnityEngine.TilemapModule.pdb</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.VehiclesModule.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.VehiclesModule.dll">
-                <TargetPath>UnityEngine.VehiclesModule.dll</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.UIElementsModule.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.UIElementsModule.dll">
+                <TargetPath>UnityEngine.UIElementsModule.dll</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.VehiclesModule.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.VehiclesModule.pdb">
-                <TargetPath>UnityEngine.VehiclesModule.pdb</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.UIElementsModule.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.UIElementsModule.pdb">
+                <TargetPath>UnityEngine.UIElementsModule.pdb</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.WebModule.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.WebModule.dll">
-                <TargetPath>UnityEngine.WebModule.dll</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.UIModule.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.UIModule.dll">
+                <TargetPath>UnityEngine.UIModule.dll</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.WebModule.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.WebModule.pdb">
-                <TargetPath>UnityEngine.WebModule.pdb</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.UIModule.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.UIModule.pdb">
+                <TargetPath>UnityEngine.UIModule.pdb</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.XRModule.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.XRModule.dll">
-                <TargetPath>UnityEngine.XRModule.dll</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.UNETModule.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.UNETModule.dll">
+                <TargetPath>UnityEngine.UNETModule.dll</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.XRModule.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.XRModule.pdb">
-                <TargetPath>UnityEngine.XRModule.pdb</TargetPath>
-            </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.WindModule.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.WindModule.dll">
-                <TargetPath>UnityEngine.WindModule.dll</TargetPath>
-            </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.WindModule.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.WindModule.pdb">
-                <TargetPath>UnityEngine.WindModule.pdb</TargetPath>
-            </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.UnityWebRequestAssetBundleModule.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.UnityWebRequestAssetBundleModule.dll">
-                <TargetPath>UnityEngine.UnityWebRequestAssetBundleModule.dll</TargetPath>
-            </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.UnityWebRequestAssetBundleModule.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.UnityWebRequestAssetBundleModule.pdb">
-                <TargetPath>UnityEngine.UnityWebRequestAssetBundleModule.pdb</TargetPath>
-            </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.UnityConnectModule.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.UnityConnectModule.dll">
-                <TargetPath>UnityEngine.UnityConnectModule.dll</TargetPath>
-            </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.UnityConnectModule.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.UnityConnectModule.pdb">
-                <TargetPath>UnityEngine.UnityConnectModule.pdb</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.UNETModule.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.UNETModule.pdb">
+                <TargetPath>UnityEngine.UNETModule.pdb</TargetPath>
             </AppxPackagePayload>
             <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.UnityAnalyticsModule.dll'" />
             <AppxPackagePayload Include="$(ProjectDir)UnityEngine.UnityAnalyticsModule.dll">
@@ -615,6 +546,22 @@
             <AppxPackagePayload Include="$(ProjectDir)UnityEngine.UnityAnalyticsModule.pdb">
                 <TargetPath>UnityEngine.UnityAnalyticsModule.pdb</TargetPath>
             </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.UnityConnectModule.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.UnityConnectModule.dll">
+                <TargetPath>UnityEngine.UnityConnectModule.dll</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.UnityConnectModule.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.UnityConnectModule.pdb">
+                <TargetPath>UnityEngine.UnityConnectModule.pdb</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.UnityWebRequestAssetBundleModule.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.UnityWebRequestAssetBundleModule.dll">
+                <TargetPath>UnityEngine.UnityWebRequestAssetBundleModule.dll</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.UnityWebRequestAssetBundleModule.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.UnityWebRequestAssetBundleModule.pdb">
+                <TargetPath>UnityEngine.UnityWebRequestAssetBundleModule.pdb</TargetPath>
+            </AppxPackagePayload>
             <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.UnityWebRequestAudioModule.dll'" />
             <AppxPackagePayload Include="$(ProjectDir)UnityEngine.UnityWebRequestAudioModule.dll">
                 <TargetPath>UnityEngine.UnityWebRequestAudioModule.dll</TargetPath>
@@ -622,22 +569,6 @@
             <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.UnityWebRequestAudioModule.pdb'" />
             <AppxPackagePayload Include="$(ProjectDir)UnityEngine.UnityWebRequestAudioModule.pdb">
                 <TargetPath>UnityEngine.UnityWebRequestAudioModule.pdb</TargetPath>
-            </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.UnityWebRequestWWWModule.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.UnityWebRequestWWWModule.dll">
-                <TargetPath>UnityEngine.UnityWebRequestWWWModule.dll</TargetPath>
-            </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.UnityWebRequestWWWModule.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.UnityWebRequestWWWModule.pdb">
-                <TargetPath>UnityEngine.UnityWebRequestWWWModule.pdb</TargetPath>
-            </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.UnityWebRequestTextureModule.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.UnityWebRequestTextureModule.dll">
-                <TargetPath>UnityEngine.UnityWebRequestTextureModule.dll</TargetPath>
-            </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.UnityWebRequestTextureModule.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.UnityWebRequestTextureModule.pdb">
-                <TargetPath>UnityEngine.UnityWebRequestTextureModule.pdb</TargetPath>
             </AppxPackagePayload>
             <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.UnityWebRequestModule.dll'" />
             <AppxPackagePayload Include="$(ProjectDir)UnityEngine.UnityWebRequestModule.dll">
@@ -647,117 +578,77 @@
             <AppxPackagePayload Include="$(ProjectDir)UnityEngine.UnityWebRequestModule.pdb">
                 <TargetPath>UnityEngine.UnityWebRequestModule.pdb</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.ClothModule.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.ClothModule.dll">
-                <TargetPath>UnityEngine.ClothModule.dll</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.UnityWebRequestTextureModule.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.UnityWebRequestTextureModule.dll">
+                <TargetPath>UnityEngine.UnityWebRequestTextureModule.dll</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.ClothModule.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.ClothModule.pdb">
-                <TargetPath>UnityEngine.ClothModule.pdb</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.UnityWebRequestTextureModule.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.UnityWebRequestTextureModule.pdb">
+                <TargetPath>UnityEngine.UnityWebRequestTextureModule.pdb</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.AudioModule.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.AudioModule.dll">
-                <TargetPath>UnityEngine.AudioModule.dll</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.UnityWebRequestWWWModule.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.UnityWebRequestWWWModule.dll">
+                <TargetPath>UnityEngine.UnityWebRequestWWWModule.dll</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.AudioModule.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.AudioModule.pdb">
-                <TargetPath>UnityEngine.AudioModule.pdb</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.UnityWebRequestWWWModule.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.UnityWebRequestWWWModule.pdb">
+                <TargetPath>UnityEngine.UnityWebRequestWWWModule.pdb</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.AssetBundleModule.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.AssetBundleModule.dll">
-                <TargetPath>UnityEngine.AssetBundleModule.dll</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.VehiclesModule.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.VehiclesModule.dll">
+                <TargetPath>UnityEngine.VehiclesModule.dll</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.AssetBundleModule.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.AssetBundleModule.pdb">
-                <TargetPath>UnityEngine.AssetBundleModule.pdb</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.VehiclesModule.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.VehiclesModule.pdb">
+                <TargetPath>UnityEngine.VehiclesModule.pdb</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.CoreModule.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.CoreModule.dll">
-                <TargetPath>UnityEngine.CoreModule.dll</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.VideoModule.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.VideoModule.dll">
+                <TargetPath>UnityEngine.VideoModule.dll</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.CoreModule.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.CoreModule.pdb">
-                <TargetPath>UnityEngine.CoreModule.pdb</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.VideoModule.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.VideoModule.pdb">
+                <TargetPath>UnityEngine.VideoModule.pdb</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.dll">
-                <TargetPath>UnityEngine.dll</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.VRModule.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.VRModule.dll">
+                <TargetPath>UnityEngine.VRModule.dll</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.pdb">
-                <TargetPath>UnityEngine.pdb</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.VRModule.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.VRModule.pdb">
+                <TargetPath>UnityEngine.VRModule.pdb</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.DirectorModule.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.DirectorModule.dll">
-                <TargetPath>UnityEngine.DirectorModule.dll</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.WebModule.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.WebModule.dll">
+                <TargetPath>UnityEngine.WebModule.dll</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.DirectorModule.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.DirectorModule.pdb">
-                <TargetPath>UnityEngine.DirectorModule.pdb</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.WebModule.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.WebModule.pdb">
+                <TargetPath>UnityEngine.WebModule.pdb</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.CrashReportingModule.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.CrashReportingModule.dll">
-                <TargetPath>UnityEngine.CrashReportingModule.dll</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.WindModule.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.WindModule.dll">
+                <TargetPath>UnityEngine.WindModule.dll</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.CrashReportingModule.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.CrashReportingModule.pdb">
-                <TargetPath>UnityEngine.CrashReportingModule.pdb</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.WindModule.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.WindModule.pdb">
+                <TargetPath>UnityEngine.WindModule.pdb</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.AccessibilityModule.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.AccessibilityModule.dll">
-                <TargetPath>UnityEngine.AccessibilityModule.dll</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.SharedInternalsModule.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.SharedInternalsModule.dll">
+                <TargetPath>UnityEngine.SharedInternalsModule.dll</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.AccessibilityModule.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.AccessibilityModule.pdb">
-                <TargetPath>UnityEngine.AccessibilityModule.pdb</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.SharedInternalsModule.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.SharedInternalsModule.pdb">
+                <TargetPath>UnityEngine.SharedInternalsModule.pdb</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.ARModule.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.ARModule.dll">
-                <TargetPath>UnityEngine.ARModule.dll</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.XRModule.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.XRModule.dll">
+                <TargetPath>UnityEngine.XRModule.dll</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.ARModule.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.ARModule.pdb">
-                <TargetPath>UnityEngine.ARModule.pdb</TargetPath>
-            </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.AnimationModule.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.AnimationModule.dll">
-                <TargetPath>UnityEngine.AnimationModule.dll</TargetPath>
-            </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.AnimationModule.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.AnimationModule.pdb">
-                <TargetPath>UnityEngine.AnimationModule.pdb</TargetPath>
-            </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.AIModule.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.AIModule.dll">
-                <TargetPath>UnityEngine.AIModule.dll</TargetPath>
-            </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.AIModule.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.AIModule.pdb">
-                <TargetPath>UnityEngine.AIModule.pdb</TargetPath>
-            </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.ParticleSystemModule.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.ParticleSystemModule.dll">
-                <TargetPath>UnityEngine.ParticleSystemModule.dll</TargetPath>
-            </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.ParticleSystemModule.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.ParticleSystemModule.pdb">
-                <TargetPath>UnityEngine.ParticleSystemModule.pdb</TargetPath>
-            </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.ParticlesLegacyModule.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.ParticlesLegacyModule.dll">
-                <TargetPath>UnityEngine.ParticlesLegacyModule.dll</TargetPath>
-            </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.ParticlesLegacyModule.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.ParticlesLegacyModule.pdb">
-                <TargetPath>UnityEngine.ParticlesLegacyModule.pdb</TargetPath>
-            </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.PerformanceReportingModule.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.PerformanceReportingModule.dll">
-                <TargetPath>UnityEngine.PerformanceReportingModule.dll</TargetPath>
-            </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.PerformanceReportingModule.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.PerformanceReportingModule.pdb">
-                <TargetPath>UnityEngine.PerformanceReportingModule.pdb</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.XRModule.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.XRModule.pdb">
+                <TargetPath>UnityEngine.XRModule.pdb</TargetPath>
             </AppxPackagePayload>
             <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.ScreenCaptureModule.dll'" />
             <AppxPackagePayload Include="$(ProjectDir)UnityEngine.ScreenCaptureModule.dll">
@@ -767,14 +658,6 @@
             <AppxPackagePayload Include="$(ProjectDir)UnityEngine.ScreenCaptureModule.pdb">
                 <TargetPath>UnityEngine.ScreenCaptureModule.pdb</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.PhysicsModule.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.PhysicsModule.dll">
-                <TargetPath>UnityEngine.PhysicsModule.dll</TargetPath>
-            </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.PhysicsModule.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.PhysicsModule.pdb">
-                <TargetPath>UnityEngine.PhysicsModule.pdb</TargetPath>
-            </AppxPackagePayload>
             <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.Physics2DModule.dll'" />
             <AppxPackagePayload Include="$(ProjectDir)UnityEngine.Physics2DModule.dll">
                 <TargetPath>UnityEngine.Physics2DModule.dll</TargetPath>
@@ -783,13 +666,93 @@
             <AppxPackagePayload Include="$(ProjectDir)UnityEngine.Physics2DModule.pdb">
                 <TargetPath>UnityEngine.Physics2DModule.pdb</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.GridModule.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.GridModule.dll">
-                <TargetPath>UnityEngine.GridModule.dll</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.AccessibilityModule.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.AccessibilityModule.dll">
+                <TargetPath>UnityEngine.AccessibilityModule.dll</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.GridModule.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.GridModule.pdb">
-                <TargetPath>UnityEngine.GridModule.pdb</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.AccessibilityModule.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.AccessibilityModule.pdb">
+                <TargetPath>UnityEngine.AccessibilityModule.pdb</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.AIModule.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.AIModule.dll">
+                <TargetPath>UnityEngine.AIModule.dll</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.AIModule.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.AIModule.pdb">
+                <TargetPath>UnityEngine.AIModule.pdb</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.AnimationModule.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.AnimationModule.dll">
+                <TargetPath>UnityEngine.AnimationModule.dll</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.AnimationModule.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.AnimationModule.pdb">
+                <TargetPath>UnityEngine.AnimationModule.pdb</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.ARModule.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.ARModule.dll">
+                <TargetPath>UnityEngine.ARModule.dll</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.ARModule.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.ARModule.pdb">
+                <TargetPath>UnityEngine.ARModule.pdb</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.AssetBundleModule.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.AssetBundleModule.dll">
+                <TargetPath>UnityEngine.AssetBundleModule.dll</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.AssetBundleModule.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.AssetBundleModule.pdb">
+                <TargetPath>UnityEngine.AssetBundleModule.pdb</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.AudioModule.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.AudioModule.dll">
+                <TargetPath>UnityEngine.AudioModule.dll</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.AudioModule.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.AudioModule.pdb">
+                <TargetPath>UnityEngine.AudioModule.pdb</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.ClothModule.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.ClothModule.dll">
+                <TargetPath>UnityEngine.ClothModule.dll</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.ClothModule.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.ClothModule.pdb">
+                <TargetPath>UnityEngine.ClothModule.pdb</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.CoreModule.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.CoreModule.dll">
+                <TargetPath>UnityEngine.CoreModule.dll</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.CoreModule.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.CoreModule.pdb">
+                <TargetPath>UnityEngine.CoreModule.pdb</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.CrashReportingModule.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.CrashReportingModule.dll">
+                <TargetPath>UnityEngine.CrashReportingModule.dll</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.CrashReportingModule.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.CrashReportingModule.pdb">
+                <TargetPath>UnityEngine.CrashReportingModule.pdb</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.DirectorModule.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.DirectorModule.dll">
+                <TargetPath>UnityEngine.DirectorModule.dll</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.DirectorModule.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.DirectorModule.pdb">
+                <TargetPath>UnityEngine.DirectorModule.pdb</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.dll">
+                <TargetPath>UnityEngine.dll</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.pdb">
+                <TargetPath>UnityEngine.pdb</TargetPath>
             </AppxPackagePayload>
             <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.GameCenterModule.dll'" />
             <AppxPackagePayload Include="$(ProjectDir)UnityEngine.GameCenterModule.dll">
@@ -799,6 +762,14 @@
             <AppxPackagePayload Include="$(ProjectDir)UnityEngine.GameCenterModule.pdb">
                 <TargetPath>UnityEngine.GameCenterModule.pdb</TargetPath>
             </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.GridModule.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.GridModule.dll">
+                <TargetPath>UnityEngine.GridModule.dll</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.GridModule.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.GridModule.pdb">
+                <TargetPath>UnityEngine.GridModule.pdb</TargetPath>
+            </AppxPackagePayload>
             <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.ImageConversionModule.dll'" />
             <AppxPackagePayload Include="$(ProjectDir)UnityEngine.ImageConversionModule.dll">
                 <TargetPath>UnityEngine.ImageConversionModule.dll</TargetPath>
@@ -807,13 +778,13 @@
             <AppxPackagePayload Include="$(ProjectDir)UnityEngine.ImageConversionModule.pdb">
                 <TargetPath>UnityEngine.ImageConversionModule.pdb</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.JSONSerializeModule.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.JSONSerializeModule.dll">
-                <TargetPath>UnityEngine.JSONSerializeModule.dll</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.IMGUIModule.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.IMGUIModule.dll">
+                <TargetPath>UnityEngine.IMGUIModule.dll</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.JSONSerializeModule.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.JSONSerializeModule.pdb">
-                <TargetPath>UnityEngine.JSONSerializeModule.pdb</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.IMGUIModule.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.IMGUIModule.pdb">
+                <TargetPath>UnityEngine.IMGUIModule.pdb</TargetPath>
             </AppxPackagePayload>
             <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.InputModule.dll'" />
             <AppxPackagePayload Include="$(ProjectDir)UnityEngine.InputModule.dll">
@@ -823,13 +794,53 @@
             <AppxPackagePayload Include="$(ProjectDir)UnityEngine.InputModule.pdb">
                 <TargetPath>UnityEngine.InputModule.pdb</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.IMGUIModule.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.IMGUIModule.dll">
-                <TargetPath>UnityEngine.IMGUIModule.dll</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.JSONSerializeModule.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.JSONSerializeModule.dll">
+                <TargetPath>UnityEngine.JSONSerializeModule.dll</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.IMGUIModule.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.IMGUIModule.pdb">
-                <TargetPath>UnityEngine.IMGUIModule.pdb</TargetPath>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.JSONSerializeModule.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.JSONSerializeModule.pdb">
+                <TargetPath>UnityEngine.JSONSerializeModule.pdb</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.ParticlesLegacyModule.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.ParticlesLegacyModule.dll">
+                <TargetPath>UnityEngine.ParticlesLegacyModule.dll</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.ParticlesLegacyModule.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.ParticlesLegacyModule.pdb">
+                <TargetPath>UnityEngine.ParticlesLegacyModule.pdb</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.ParticleSystemModule.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.ParticleSystemModule.dll">
+                <TargetPath>UnityEngine.ParticleSystemModule.dll</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.ParticleSystemModule.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.ParticleSystemModule.pdb">
+                <TargetPath>UnityEngine.ParticleSystemModule.pdb</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.PerformanceReportingModule.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.PerformanceReportingModule.dll">
+                <TargetPath>UnityEngine.PerformanceReportingModule.dll</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.PerformanceReportingModule.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.PerformanceReportingModule.pdb">
+                <TargetPath>UnityEngine.PerformanceReportingModule.pdb</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.PhysicsModule.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.PhysicsModule.dll">
+                <TargetPath>UnityEngine.PhysicsModule.dll</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.PhysicsModule.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.PhysicsModule.pdb">
+                <TargetPath>UnityEngine.PhysicsModule.pdb</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'ConnectorHubUW.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)ConnectorHubUW.dll">
+                <TargetPath>ConnectorHubUW.dll</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'ConnectorHubUW.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)ConnectorHubUW.pdb">
+                <TargetPath>ConnectorHubUW.pdb</TargetPath>
             </AppxPackagePayload>
             <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'Newtonsoft.Json.dll'" />
             <AppxPackagePayload Include="$(ProjectDir)Newtonsoft.Json.dll">
