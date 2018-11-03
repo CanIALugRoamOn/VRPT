@@ -365,7 +365,7 @@
 
   <ItemGroup>
     <ProjectReference Include="C:\Users\roman\Unity Projects\Virtual Presentation Trainer\VRPT\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj">
-      <Project>{0f2e9718-25ff-43e5-9829-1ff6efa41d30}</Project>
+      <Project>{33f98244-c5dd-4a2e-b39c-7edeb7e65e7f}</Project>
       <Name>Assembly-CSharp</Name>
       <Private>False</Private>
     </ProjectReference>

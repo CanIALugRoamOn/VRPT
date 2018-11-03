@@ -233,7 +233,6 @@ C:\Users\roman\Unity Projects\Virtual Presentation Trainer\VRPT\App\VRPT\bin\x86
 C:\Users\roman\Unity Projects\Virtual Presentation Trainer\VRPT\App\VRPT\bin\x86\Debug\UnityEngineDelegates.dll
 C:\Users\roman\Unity Projects\Virtual Presentation Trainer\VRPT\App\VRPT\bin\x86\Debug\UnityEngineDelegates.pdb
 C:\Users\roman\Unity Projects\Virtual Presentation Trainer\VRPT\App\VRPT\bin\x86\Debug\UnityEngineProxy.pdb
-C:\Users\roman\Unity Projects\Virtual Presentation Trainer\VRPT\App\VRPT\obj\x86\Debug\VRPT.csprojResolveAssemblyReference.cache
 C:\Users\roman\Unity Projects\Virtual Presentation Trainer\VRPT\App\VRPT\obj\x86\Debug\VRPT.csproj.CoreCompileInputs.cache
 C:\Users\roman\Unity Projects\Virtual Presentation Trainer\VRPT\App\VRPT\obj\x86\Debug\VRPT.csproj.CopyComplete
 C:\Users\roman\Unity Projects\Virtual Presentation Trainer\VRPT\App\VRPT\obj\x86\Debug\VRPT.exe
@@ -304,3 +303,7 @@ C:\Users\roman\Unity Projects\Virtual Presentation Trainer\VRPT\App\VRPT\obj\x86
 C:\Users\roman\Unity Projects\Virtual Presentation Trainer\VRPT\App\VRPT\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\roman\Unity Projects\Virtual Presentation Trainer\VRPT\App\VRPT\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\roman\Unity Projects\Virtual Presentation Trainer\VRPT\App\VRPT\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\roman\Unity Projects\Virtual Presentation Trainer\VRPT\App\VRPT\bin\x86\Debug\ConnectorHubUW.dll
+C:\Users\roman\Unity Projects\Virtual Presentation Trainer\VRPT\App\VRPT\bin\x86\Debug\ConnectorHubUW.pdb
+C:\Users\roman\Unity Projects\Virtual Presentation Trainer\VRPT\App\VRPT\obj\x86\Debug\VRPT.csprojAssemblyReference.cache
+C:\Users\roman\Unity Projects\Virtual Presentation Trainer\VRPT\App\VRPT\obj\x86\Debug\VRPT.csproj.GenerateResource.Cache

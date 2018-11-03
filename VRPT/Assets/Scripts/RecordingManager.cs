@@ -22,9 +22,9 @@ public class RecordingManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        IPAddress = "192.168.70.53";///just for now lets check how to add a keyboard to input the IP
-
         Input = GameObject.Find("InputField").GetComponent<InputField>();
+        IPAddress = "192.168.70.53";///just for now lets check how to add a keyboard to input the IP
+        IPAddress = Input.text;
 
         Button StartApp = GameObject.Find("StartApp").GetComponent<Button>();
         StartApp.onClick.AddListener(() => TaskOnClick(StartApp));

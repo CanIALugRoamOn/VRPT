@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0f2e9718-25ff-43e5-9829-1ff6efa41d30}</ProjectGuid>
+    <ProjectGuid>{33f98244-c5dd-4a2e-b39c-7edeb7e65e7f}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AssemblyCSharpWSA</RootNamespace>
@@ -1806,6 +1806,9 @@
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\Scripts\FeedbackManager.cs">
       <Link>Scripts\FeedbackManager.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\NumpadManager.cs">
+      <Link>Scripts\NumpadManager.cs</Link>
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\Scripts\RecordingManager.cs">
       <Link>Scripts\RecordingManager.cs</Link>
