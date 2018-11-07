@@ -24,6 +24,9 @@ public class FeedbackManager : MonoBehaviour {
     private bool coroutine = true;
 
     private string feedback = "Good";
+
+    private string[] feedbackMessages;
+
     // Use this for initialization
     void Start() {
 

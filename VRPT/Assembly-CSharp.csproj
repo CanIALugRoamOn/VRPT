@@ -533,6 +533,7 @@
     <Compile Include="Assets\HoloToolkit\UX\Scripts\UICollection.cs" />
     <Compile Include="Assets\HoloToolkit\UX\Scripts\UsabilityScaler.cs" />
     <Compile Include="Assets\HoloToolkit\UX\Scripts\UsabilityUtilities.cs" />
+    <Compile Include="Assets\Scripts\AnimationManager.cs" />
     <Compile Include="Assets\Scripts\FeedbackManager.cs" />
     <Compile Include="Assets\Scripts\NumpadManager.cs" />
     <Compile Include="Assets\Scripts\RecordingManager.cs" />
