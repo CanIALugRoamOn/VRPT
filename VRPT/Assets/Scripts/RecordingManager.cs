@@ -11,6 +11,10 @@ public class RecordingManager : MonoBehaviour {
     public GameObject ButtonPause;
     public GameObject ButtonStop;
 
+    public bool isRecording { get; private set; } = false ;
+    public float minutesPast { get; private set; } = 0;
+
+
     private InputField Input; 
     public GameObject Menu;
     public GameObject Init;
@@ -22,29 +26,39 @@ public class RecordingManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        Input = GameObject.Find("InputField").GetComponent<InputField>();
+        //Input = GameObject.Find("InputField").GetComponent<InputField>();
         IPAddress = "192.168.70.53";///just for now lets check how to add a keyboard to input the IP
-        IPAddress = Input.text;
+        //IPAddress = Input.text;
 
-        Button StartApp = GameObject.Find("StartApp").GetComponent<Button>();
-        StartApp.onClick.AddListener(() => TaskOnClick(StartApp));
+        //Button StartApp = GameObject.Find("StartApp").GetComponent<Button>();
+        //StartApp.onClick.AddListener(() => TaskOnClick(StartApp));
 
-        Button Play = ButtonPlay.GetComponent<Button>();
-        Play.onClick.AddListener(() => TaskOnClick(Play));
+        //Button Play = ButtonPlay.GetComponent<Button>();
+        //Play.onClick.AddListener(() => TaskOnClick(Play));
 
-        Button Pause = ButtonPause.GetComponent<Button>();
-        Pause.onClick.AddListener(() => TaskOnClick(Pause));
+        //Button Pause = ButtonPause.GetComponent<Button>();
+        //Pause.onClick.AddListener(() => TaskOnClick(Pause));
 
-        Button Stop = ButtonStop.GetComponent<Button>();
-        Stop.onClick.AddListener(() => TaskOnClick(Stop));
+        //Button Stop = ButtonStop.GetComponent<Button>();
+        //Stop.onClick.AddListener(() => TaskOnClick(Stop));
 
     }
 	
 	// Update is called once per frame
 	void Update () {
 
+        if (isRecording)
+        {
+            minutesPast += Time.deltaTime;
+        }
+        //print(minutesPast.ToString());
         // get the IP Adress from the input
-       // IPAddress = Input.GetComponent<InputField>().text; //TODO uncomment this 
+        // IPAddress = Input.GetComponent<InputField>().text; //TODO uncomment this 
+    }
+
+    public float GetCaptureTime()
+    {
+        return minutesPast;
     }
 
    public void TaskOnClick(Button Btn)
@@ -75,12 +89,16 @@ public class RecordingManager : MonoBehaviour {
                 break;
             case "Play":
                 sendMessage("<START RECORDING>");
+                isRecording = true;
                 break;
             case "Pause":
                 sendMessage("<STOP RECORDING>");
+                isRecording = false;
                 break;
             case "Stop":
                 sendMessage("<STOP RECORDING>");
+                minutesPast = 0;
+                isRecording = false;
                 break;
             case "Finish":
                 sendMessage("<FINISCH>");
