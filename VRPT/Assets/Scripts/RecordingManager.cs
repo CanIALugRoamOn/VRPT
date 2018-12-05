@@ -47,10 +47,10 @@ public class RecordingManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if (isRecording)
-        {
-            minutesPast += Time.deltaTime;
-        }
+        //if (isRecording)
+        //{
+        //    minutesPast += Time.deltaTime;
+        //}
         //print(minutesPast.ToString());
         // get the IP Adress from the input
         // IPAddress = Input.GetComponent<InputField>().text; //TODO uncomment this 
